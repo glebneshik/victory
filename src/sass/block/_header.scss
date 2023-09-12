@@ -1,0 +1,26 @@
+.header{
+    min-height: 60px;
+    background: #404040;
+    padding: 0 20px;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    &__logo{
+        display: flex;
+        align-items: center;
+        column-gap: 15px;
+        border-right: 3px solid #fff;
+        padding-right: 50px;
+        &-text{
+            &_title{
+                color: #FFF;
+                text-align: center;
+                font-size: 32px;
+                font-weight: 400;
+            }
+        }
+    }
+}
