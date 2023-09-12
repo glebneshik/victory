@@ -1,8 +1,11 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 @import './mixins/mixins';
 @import './variables/variable';
 
 @import './block/header';
+@import './block/menu';
+//Import fonts
+@import './font/fonts';
 
 *{
     padding: 0;

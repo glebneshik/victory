@@ -1,12 +1,11 @@
 .header{
     min-height: 60px;
-    background: #404040;
-    padding: 0 20px;
+    background: #555555;
+    padding: 10px 40px;
     &__wrapper{
         display: flex;
         justify-content: space-between;
         align-items: center;
-
     }
     &__logo{
         display: flex;
@@ -16,10 +15,57 @@
         padding-right: 50px;
         &-text{
             &_title{
+                padding-top: 10px;
                 color: #FFF;
                 text-align: center;
-                font-size: 32px;
+                font-size: 42px;
+                font-family: "Jomhuria", sans-serif;
+                line-height: 15px;
                 font-weight: 400;
+            }
+            &_subtitle{
+                color: #D781FF;
+                font-size: 24px;
+                font-weight: 400;
+                font-family: "Jomhuria", sans-serif;
+            }
+        }
+    }
+    &__menu{
+        display: flex;
+        justify-content: space-between;
+        width: 600px;
+        &-link{
+            color: #FFF;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            border-bottom: 3px solid #d781ff00;
+            //padding-bottom: 20px;
+            line-height: 40px;
+            &:hover{
+                border-bottom: 3px solid #D781FF;
+                transition: 0.3s;
+            }
+        }
+    }
+    &__accaunt{
+        display: flex;
+        align-items: center;
+        text-align: right;
+        column-gap: 15px;
+        &-text{
+            cursor: pointer;
+            &_name{
+                font-size: 14px;
+                font-weight: 600;
+                color: #fff;
+            }
+            &_email{
+                font-size: 14px;
+                font-weight: 600;
+                color: #fff;
             }
         }
     }
