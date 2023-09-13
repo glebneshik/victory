@@ -22,6 +22,7 @@
                 font-family: "Jomhuria", sans-serif;
                 line-height: 15px;
                 font-weight: 400;
+                text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
             }
             &_subtitle{
                 color: #D781FF;
@@ -34,7 +35,7 @@
     &__menu{
         display: flex;
         justify-content: space-between;
-        width: 600px;
+        width: 700px;
         &-link{
             color: #FFF;
             text-align: center;
@@ -55,6 +56,13 @@
         align-items: center;
         text-align: right;
         column-gap: 15px;
+        &:hover{
+            .settings{
+                transition: 0.3s;
+                left: 50px;
+                visibility: visible;
+            }
+        }
         &-text{
             cursor: pointer;
             &_name{
@@ -66,6 +74,16 @@
                 font-size: 14px;
                 font-weight: 600;
                 color: #fff;
+            }
+        }
+        &-img{
+            position: relative;
+            .settings{
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                width: 20px;
+                visibility: hidden;
             }
         }
     }

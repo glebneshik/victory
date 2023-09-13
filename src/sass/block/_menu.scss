@@ -1,5 +1,5 @@
 .menu{
-    height: 45px;
+    height: 48px;
     padding: 11px 0;
     background: #404040;
     &__container{
@@ -67,11 +67,11 @@
             &-text{
                 font-family: 'Russo One', sans-serif;
                 color: #fff;
-                border-bottom: 2px solid #d781ff00;
-                
-            line-height: 25px;
+                border-bottom: 2.5px solid #d781ff00;
+                text-decoration: none;
+                line-height: 25px;
                 &:hover{
-                    border-bottom: 2px solid #D781FF;
+                    border-bottom: 2.5px solid #D781FF;
                     transition: 0.3s;
                 }
             }

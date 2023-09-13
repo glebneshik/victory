@@ -4,6 +4,7 @@
 
 @import './block/header';
 @import './block/menu';
+@import './block/main';
 //Import fonts
 @import './font/fonts';
 
@@ -12,4 +13,9 @@
     margin: 0;
     font-family: "Roboto", sans-serif;
     box-sizing: border-box;
+}
+.container{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
 }
